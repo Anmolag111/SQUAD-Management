@@ -13,7 +13,7 @@ public class SendMail
     { 
     	String to=sendmailbean.getEmail();
     	String user="msitlm.19@gmail.com";
-    	String pass="Password123$";
+    	String pass="";
     	String sub="Welcome To Project Attendance.";
     	String msg="Hi! "+sendmailbean.getFname()+" you have been Successfully Registered on our site. \n You may start using the site.";
     	
